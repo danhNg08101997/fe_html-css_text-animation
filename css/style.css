@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+body {
+  background-color: #bfccb5;
+  text-align: center;
+  margin-top: 10%;
+  font-family: "Righteous", cursive;
+  color: #fff;
+}
+
+.main-text {
+  font-size: 300px;
+  background-image: url(../img/pexels-erik-karits-4083149.jpg);
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 30s infinite linear;
+}
+
+.sub-text {
+  font-size: 50px;
+  background-image: url(../img/pexels-dids-2911521.jpg);
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 20s infinite linear;
+}
+
+@keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 100%;
+  }
+}
